@@ -21,7 +21,7 @@ const Navbar = () => {
         <a href="/"><TbMessageChatbot /></a>
         <a href="/"><RiApps2AddLine /></a>
         <div className="profile flex items-center">
-            <img src="" alt="Pic" />
+            <img src="./Images/user-1.jpg" alt="Pic" width={35} className='rounded-full'/>
             <div>
                 <h3>Tom Lee</h3>
                 <p>Sales Agent</p>
