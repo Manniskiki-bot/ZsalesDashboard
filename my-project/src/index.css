@@ -3,5 +3,39 @@
 @tailwind utilities;
 
 body{
-  background-color: #2A3447;
+  color: black;
+  background-color: #F6F9FB;
+  overflow-x: hidden;
 }
+
+.custom-shadow {
+  box-shadow: 0 0 20px 10px rgba(37, 54, 98, 0.3); /* Adjust the alpha value here */
+}
+
+
+  /* Custom CSS to change the color of list markers */
+  ul.custom-list-disc li::marker {
+    color: #9299A0; /* Change the color to your desired color */
+  }
+
+  @layer utilities {
+    .shadow-glow {
+      box-shadow: 0 0 4px 2px rgba(60, 54, 98, 0.2);
+
+    }
+  }
+
+  .calendar_default_event_inner {
+    background: #2e78d6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 10pt;
+    padding: 5px;
+    opacity: 0.8;
+}
+.not-available {
+  cursor: not-allowed;
+ } 
+
+ 

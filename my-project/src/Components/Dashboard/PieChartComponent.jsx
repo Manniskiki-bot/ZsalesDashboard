@@ -32,8 +32,8 @@ const PieChartComponent = () => {
 
   return (
     <>
-    <h1>Practice Chart</h1>
-    <div className='w-2/5'>
+    
+    <div className='w-[150px]'>
     
       <Doughnut data={data} options={options}className='w[200px]'/>
   
